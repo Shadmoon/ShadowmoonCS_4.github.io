@@ -1,0 +1,224 @@
+ body{
+  background-color: #040720 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1.homepage_heading{
+  text-align: center;
+  color: white;
+  font-family: 'Trick Or Dead', Arial, Helveica, sans-serif;
+  font-size: 310%;
+   animation-name: animator_one;
+  animation-duration: 5s;
+}
+@keyframes animator_one {
+  from {
+    transform: scale(3);
+  }
+  to{
+    transform: scale(0.9);
+  }
+}
+ul {
+  font-family: 'Breilga', Arial, Helveica, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a:hover{
+  background-color: #c0eefb;
+  color: white;
+}
+li a {
+  text-decoration: none;
+  width: 80px;
+  background-color: #dac6ff;
+  padding: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.center_nav_bar{
+  text-align: center;
+  animation-name: animator_one;
+  animation-duration: 5s;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  direction: down;
+  width: 50%
+}
+.P_Home{
+  color: white;
+  text-align: center;
+  animation-name: animator_one;
+  animation-duration: 5s;
+  font-family: 'Maria', Arial, Helveica, sans-serif;
+}
+<!--GPUCode-->
+body{
+  background-color: #040720 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1.GPUpage_Heading {
+  text-align: center;
+  color: white;
+  font-family: 'Godawn', Arial, Helveica, sans-serif;
+  font-size: 310%;
+  animation-name: slidein ;
+  animation-duration: 5s;
+}
+@keyframes slidein {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+ul {
+  font-family: 'Breilga', Arial, Helveica, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 
+}
+li a:hover{
+  background-color: #c0eefb;
+  color: white;
+}
+li{
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  width: 80px;
+  background-color: #dac6ff;
+  padding: 8px;
+}
+.center_nav_barTwo{
+  text-align: center;
+  animation-name: slidein ;
+  animation-duration: 5s;
+}
+.P_GPU{
+  color: white;
+  animation-name: slidein ;
+  animation-duration: 5s;
+  text-align: center;
+  font-family: 'Maria', Arial, Helveica, sans-serif;
+}
+<!--CPUCoolerCode-->
+body{
+  background-color: #040720 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1.CPUCooler_heading {
+  text-align: center;
+  color: white;
+  font-family: 'VCR-JP', Arial, Helveica, sans-serif;
+  font-size: 310%;
+  animation: fadeInAnimstion ease 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes fadeInAnimstion{
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+ul {
+  font-family: 'Breilga', Arial, Helveica, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 
+}
+li a:hover{
+  background-color: #c0eefb;
+  color: white;
+}
+li{
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  width: 80px;
+  background-color: #dac6ff;
+  padding: 8px;
+}
+.center_nav_barThree{
+  text-align: center;
+  animation: fadeInAnimstion ease 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+.P_CPUCooler{
+  color: white;
+  text-align: center;
+  animation: fadeInAnimstion ease 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  font-family: 'Maria', Arial, Helveica, sans-serif;
+}
+<!--PowerSupplyCode-->
+ body{
+  background-color: #040720 ;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+h1.Power_heading {
+  text-align: center;
+  color: white;
+  font-family: 'ACAPULCO', Arial, Helveica, sans-serif;
+  font-size: 310%;
+   animation-name: animator_two;
+  animation-duration: 5s;
+}
+@keyframes animator_two {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-this-element {
+  animation: name-of-animation 5s infinite;
+}
+ul {
+  font-family: 'ACAPULCO', Arial, Helveica, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 
+}
+li a:hover{
+  background-color: #c0eefb;
+  color: white;
+}
+li{
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  width: 80px;
+  background-color: #dac6ff;
+  padding: 8px;
+}
+.center_nav_barFour{
+  text-align: center;
+  animation-name: animator_two;
+  animation-duration: 5s;
+}
+.P_Power{
+  color: white;
+  text-align: center;
+  animation-name: animator_two;
+  animation-duration: 5s;
+  font-family: 'Maria', Arial, Helveica, sans-serif;
+}
